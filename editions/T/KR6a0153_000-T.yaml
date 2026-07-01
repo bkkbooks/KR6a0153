@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6a0153/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說阿難同學經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T02/T02n0149.xml
+    old_id: T02n0149
+hash: sha256:8a75ef78d0c196cc0056026412445fb019c431001ff919c98046fdecc32dde6e

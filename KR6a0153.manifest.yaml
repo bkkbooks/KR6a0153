@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6a0153/v1
+canonical_location: https://kanripo.org/bkk/KR6a0153/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說阿難同學經
+  identifiers:
+    alt_id:
+    - T02n0149
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T02/T02n0149.xml
+    old_id: T02n0149
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0153_000.yaml, hash: 'sha256:8a75ef78d0c196cc0056026412445fb019c431001ff919c98046fdecc32dde6e'}
+  - {seq: 1, filename: KR6a0153_001.yaml, hash: 'sha256:a8e4d8244781e90feef67e3a839d9a0c7239d1f78c078fce0a324bf224a905f6'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0153_001.markers.yaml, hash: 'sha256:8251699f7549413093a289e61ef68f42441fb937453c75be976b516a047f9d26'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0153_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1348
+  label: 佛說阿難同學經出增一阿含經
+  type: juan
+  level: 1
+hash: sha256:f9bbe383239500893317b626f10a4ddfa20d71a5a1f3246addfdf9d2da72ec69
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
