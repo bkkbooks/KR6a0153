@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0153_000.yaml, hash: 'sha256:8a75ef78d0c196cc0056026412445fb019c431001ff919c98046fdecc32dde6e'}
-  - {seq: 1, filename: KR6a0153_001.yaml, hash: 'sha256:a8e4d8244781e90feef67e3a839d9a0c7239d1f78c078fce0a324bf224a905f6'}
+  - {seq: 1, filename: KR6a0153_001.yaml, hash: 'sha256:d7c830c7e2e28344a2ff491c13005fb766243c222b80beb454a7b3e911984a07'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6a0153_001.markers.yaml, hash: 'sha256:8251699f7549413093a289e61ef68f42441fb937453c75be976b516a047f9d26'}
+  - {seq: 0, role: markers, filename: assets/KR6a0153_000.markers.yaml, hash: 'sha256:c26b9188e6e0eb0bb7f29b389e79b43b4198129a8c2498d7733e3161fab5b0a5'}
+  - {seq: 1, role: markers, filename: assets/KR6a0153_001.markers.yaml, hash: 'sha256:04d8ce2bc1d7b80d71336adf4cba52406a0c620e86d17c77453ba97c0729f784'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說阿難同學經出增一阿含經
   type: juan
   level: 1
-hash: sha256:f9bbe383239500893317b626f10a4ddfa20d71a5a1f3246addfdf9d2da72ec69
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:37eaafe2e4504c3cb4c0c83eda4185060f2df618315f73b13f0875c854fd7f39
