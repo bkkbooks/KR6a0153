@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0153/v1
 canonical_location: https://kanripo.org/bkk/KR6a0153/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說阿難同學經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0153_000.yaml, hash: 'sha256:8a75ef78d0c196cc0056026412445fb019c431001ff919c98046fdecc32dde6e'}
-  - {seq: 1, filename: KR6a0153_001.yaml, hash: 'sha256:d7c830c7e2e28344a2ff491c13005fb766243c222b80beb454a7b3e911984a07'}
+  - {seq: 1, filename: KR6a0153_001.yaml, hash: 'sha256:30fa9586ebe218050b35abd868f55696d421ff103489399097aee9786105a225'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0153_000.markers.yaml, hash: 'sha256:c26b9188e6e0eb0bb7f29b389e79b43b4198129a8c2498d7733e3161fab5b0a5'}
-  - {seq: 1, role: markers, filename: assets/KR6a0153_001.markers.yaml, hash: 'sha256:04d8ce2bc1d7b80d71336adf4cba52406a0c620e86d17c77453ba97c0729f784'}
+  - {seq: 1, role: markers, filename: assets/KR6a0153_001.markers.yaml, hash: 'sha256:9e5338b63b86ba896fcf0dbb0ebed314adffbeb5d27c8864d1079d299f919554'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說阿難同學經出增一阿含經
   type: juan
   level: 1
-hash: sha256:37eaafe2e4504c3cb4c0c83eda4185060f2df618315f73b13f0875c854fd7f39
+hash: sha256:2571dd2b35733d12d7cc2cd5fbcc99f0bdd983d20c7940aefa394b9e501d8a41
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
